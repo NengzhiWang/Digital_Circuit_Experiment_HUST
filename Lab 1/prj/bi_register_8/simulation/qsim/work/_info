@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/WNZ/Digital Lab/Lab 1/prj/bi_register_8/simulation/qsim
+vbi_register_8
+Z1 !s110 1587722057
+!i10b 1
+!s100 9SJ_bRcB`k[2Uol<]FW4H0
+IG4EzcG6:fzWRET>S>K7kk1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1587722056
+Z4 8bi_register_8.vo
+Z5 Fbi_register_8.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1587722056.000000
+Z8 !s107 bi_register_8.vo|
+Z9 !s90 -work|work|bi_register_8.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbi_register_8_vlg_vec_tst
+R1
+!i10b 1
+!s100 S[g6KB0SoK^5lOY^Vjml>2
+IQQKaKA]FVg9fFSK7UMaBF0
+R2
+R0
+w1587722054
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1587722057.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 M_Qnfh<m4bOG:I0JX4a941
+IjSlkEfYWVjQ5g=>nLk1603
+R2
+R0
+R3
+R4
+R5
+L0 628
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

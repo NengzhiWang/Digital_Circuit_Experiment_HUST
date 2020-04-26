@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at bi_register_8.v(9): always construct contains both blocking and non-blocking assignments File: D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v Line: 9

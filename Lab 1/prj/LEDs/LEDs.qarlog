@@ -1,0 +1,114 @@
+Quartus Prime Archive log --	D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qarlog
+
+Archive:	D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qar
+Date:		Sat Apr 25 21:02:20 2020
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qpf
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qsf
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/Waveform.vwf
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(0).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(0).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(1).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(1).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(2).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(2).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(3).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(3).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(4).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(4).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(5).cnf.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.(5).cnf.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.archive.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.asm.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.asm.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.asm_labs.ddb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cbx.xml
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.bpm
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.idb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.logdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cmp_merge.kpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cycloneive_io_sim_cache.45um_ff_1200mv_0c_fast.hsd
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cycloneive_io_sim_cache.45um_ii_1200mv_0c_slow.hsd
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.cycloneive_io_sim_cache.45um_ii_1200mv_85c_slow.hsd
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.db_info
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.eda.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.fit.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.hier_info
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.hif
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.lpc.html
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.lpc.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.lpc.txt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.ammdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.bpm
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.kpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.logdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map_bb.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map_bb.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.map_bb.logdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.pre_map.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.root_partition.map.reg_db.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.routing.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.rtlv.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.rtlv_sg.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.rtlv_sg_swap.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.sld_design_entry.sci
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.sld_design_entry_dsc.sci
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.smart_action.txt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.sta.qmsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.sta.rdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.sta_cmp.7_slow_1200mv_85c.tdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.tis_db_list.ddb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.tiscmp.fast_1200mv_0c.ddb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.tiscmp.slow_1200mv_0c.ddb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.tiscmp.slow_1200mv_85c.ddb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.tmw_info
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/db/LEDs.vpr.ammdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.db_info
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.cmp.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.cmp.dfp
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.cmp.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.cmp.logdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.cmp.rcfdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.dpi
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.hbdb.cdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.hbdb.hb_info
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.hbdb.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.hbdb.sig
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.root_partition.map.kpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/incremental_db/compiled_partitions/LEDs.rrp.hdb
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.asm.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.eda.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.fit.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.fit.smsg
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.fit.summary
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.flow.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.jdi
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.map.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.map.summary
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.pin
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.sld
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.sof
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.sta.rpt
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/output_files/LEDs.sta.summary
+D:/WNZ/Digital Lab/Lab 1/src/LEDs.v
+D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v
+D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v
+D:/WNZ/Digital Lab/Lab 1/src/decoder_3_8.v
+D:/WNZ/Digital Lab/Lab 1/src/freq_div.v
+D:/WNZ/Digital Lab/Lab 1/src/mux_8.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 103 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

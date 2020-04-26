@@ -1,0 +1,21 @@
+Quartus Prime Archive log --	D:/WNZ/Digital Lab/Lab 1/prj/LEDs/Digital_1_WNZ.qarlog
+
+Archive:	D:/WNZ/Digital Lab/Lab 1/prj/LEDs/Digital_1_WNZ.qar
+Date:		Sun Apr 26 09:16:40 2020
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qpf
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/LEDs.qsf
+D:/WNZ/Digital Lab/Lab 1/prj/LEDs/Waveform.vwf
+D:/WNZ/Digital Lab/Lab 1/src/LEDs.v
+D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v
+D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v
+D:/WNZ/Digital Lab/Lab 1/src/decoder_3_8.v
+D:/WNZ/Digital Lab/Lab 1/src/freq_div.v
+D:/WNZ/Digital Lab/Lab 1/src/mux_8.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

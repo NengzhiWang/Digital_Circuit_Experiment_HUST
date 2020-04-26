@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at bi_direction_counter_8.v(10): always construct contains both blocking and non-blocking assignments File: D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v Line: 10
+Warning (10268): Verilog HDL information at bi_direction_counter_8.v(23): always construct contains both blocking and non-blocking assignments File: D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v Line: 23

@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/simulation/qsim
+vdecoder_3_8
+Z1 !s110 1587804655
+!i10b 1
+!s100 la3TJndWiLliLR0_YYjki0
+I:GiemEXSd82n_Zahz3_jB3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1587804654
+Z4 8decoder_3_8.vo
+Z5 Fdecoder_3_8.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1587804655.000000
+Z8 !s107 decoder_3_8.vo|
+Z9 !s90 -work|work|decoder_3_8.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vdecoder_3_8_vlg_vec_tst
+R1
+!i10b 1
+!s100 2cDA>:YHI7M0hIAEMX8`d3
+I:_=PWi[kk[53JS<^Jj:HA2
+R2
+R0
+w1587804653
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 Tj;6SW1KjCQjNISk1kmP]2
+IaPL`g[hXc>8?Zoi]mJOGK2
+R2
+R0
+R3
+R4
+R5
+L0 390
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
