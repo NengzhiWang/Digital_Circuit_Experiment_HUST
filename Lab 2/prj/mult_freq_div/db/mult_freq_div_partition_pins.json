@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "clk_1Hz",
+					"strict" : false
+				},
+				{
+					"name" : "clk_500Hz",
+					"strict" : false
+				},
+				{
+					"name" : "clk_1kHz",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clr_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

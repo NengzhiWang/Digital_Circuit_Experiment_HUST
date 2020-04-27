@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/WNZ/Digital Lab/Lab 1/prj/LEDs/simulation/qsim
+Z0 dD:/WNZ/Digital Lab/Lab 1/prj/LEDs/simulation/qsim
 vhard_block
-Z0 !s110 1587864065
+Z1 !s110 1587808924
 !i10b 1
 !s100 ka14a^`ObB0@^9=]aQ;K13
 ITHbdBkVenEJjz>zBga>z]2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dG:/Digital Lab/Lab 1/prj/LEDs/simulation/qsim
-Z3 w1587809335
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1587808922
 Z4 8LEDs.vo
 Z5 FLEDs.vo
 L0 2237
@@ -23,19 +23,19 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1587864065.000000
+Z7 !s108 1587808924.000000
 Z8 !s107 LEDs.vo|
 Z9 !s90 -work|work|LEDs.vo|
 !i113 1
 Z10 o-work work
 Z11 tCvgOpt 0
 vLEDs
-R0
+R1
 !i10b 1
 !s100 0KL4[TeE8`7YDYi@n@S?Z3
 I6A99]1Eokg@c3A^[59e]N1
-R1
 R2
+R0
 R3
 R4
 R5
@@ -52,13 +52,13 @@ R10
 R11
 n@l@e@ds
 vLEDs_vlg_vec_tst
-R0
+!s110 1587808925
 !i10b 1
 !s100 81@e6OFoef8<?mW;2`5Pc1
 ILN3eYFi^nT`OehjHjK]iK3
-R1
 R2
-w1587864061
+R0
+w1587808921
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

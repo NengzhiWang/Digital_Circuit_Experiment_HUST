@@ -3,7 +3,7 @@ $comment
 		vcd file LEDs.msim.vcd -direction
 $end
 $date
-	Sun Apr 26 09:21:07 2020
+	Sat Apr 25 18:02:06 2020
 $end
 $version
 	ModelSim Version 10.5b

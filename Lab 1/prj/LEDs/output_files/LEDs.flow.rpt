@@ -1,5 +1,5 @@
 Flow report for LEDs
-Sun Apr 26 09:21:03 2020
+Sun Apr 26 09:16:21 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Apr 26 09:21:03 2020       ;
+; Flow Status                        ; Successful - Sun Apr 26 09:16:15 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; LEDs                                        ;
 ; Top-level Entity Name              ; LEDs                                        ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/26/2020 09:20:11 ;
+; Start date & time ; 04/26/2020 09:15:21 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; LEDs                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 79965014414911.158786401001836         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 79965014414911.158786372117708         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -93,13 +93,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4771 MB             ; 00:00:27                           ;
-; Fitter               ; 00:00:18     ; 1.0                     ; 5686 MB             ; 00:00:26                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4688 MB             ; 00:00:04                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 4843 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4637 MB             ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4645 MB             ; 00:00:01                           ;
-; Total                ; 00:00:44     ; --                      ; --                  ; 00:01:02                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4771 MB             ; 00:00:25                           ;
+; Fitter               ; 00:00:31     ; 1.0                     ; 5686 MB             ; 00:00:28                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4690 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.0                     ; 4843 MB             ; 00:00:03                           ;
+; Total                ; 00:00:56     ; --                      ; --                  ; 00:01:00                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,8 +110,6 @@ refer to the applicable agreement for further details.
 ; Fitter               ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler            ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 ; Timing Analyzer      ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -124,8 +120,6 @@ quartus_map --read_settings_files=on --write_settings_files=off LEDs -c LEDs
 quartus_fit --read_settings_files=off --write_settings_files=off LEDs -c LEDs
 quartus_asm --read_settings_files=off --write_settings_files=off LEDs -c LEDs
 quartus_sta LEDs -c LEDs
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off LEDs -c LEDs --vector_source="D:/WNZ/Digital Lab/Lab 1/prj/LEDs/Waveform.vwf" --testbench_file="D:/WNZ/Digital Lab/Lab 1/prj/LEDs/simulation/qsim/Waveform.vwf.vt"
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/WNZ/Digital Lab/Lab 1/prj/LEDs/simulation/qsim/" LEDs -c LEDs
 
 
 

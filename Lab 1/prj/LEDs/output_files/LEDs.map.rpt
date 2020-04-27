@@ -1,5 +1,5 @@
 Analysis & Synthesis report for LEDs
-Sun Apr 26 09:20:25 2020
+Sun Apr 26 09:15:36 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -44,7 +44,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 26 09:20:25 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 26 09:15:36 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; LEDs                                        ;
 ; Top-level Entity Name              ; LEDs                                        ;
@@ -165,18 +165,18 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                      ;
-+------------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
-; File Name with User-Entered Path   ; Used in Netlist ; File Type              ; File Name with Absolute Path                      ; Library ;
-+------------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
-; ../../src/freq_div.v               ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/freq_div.v               ;         ;
-; ../../src/mux_8.v                  ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/mux_8.v                  ;         ;
-; ../../src/LEDs.v                   ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/LEDs.v                   ;         ;
-; ../../src/decoder_3_8.v            ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/decoder_3_8.v            ;         ;
-; ../../src/bi_register_8.v          ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/bi_register_8.v          ;         ;
-; ../../src/bi_direction_counter_8.v ; yes             ; User Verilog HDL File  ; G:/Digital Lab/Lab 1/src/bi_direction_counter_8.v ;         ;
-+------------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                          ;
++------------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
+; File Name with User-Entered Path   ; Used in Netlist ; File Type              ; File Name with Absolute Path                          ; Library ;
++------------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
+; ../../src/freq_div.v               ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/freq_div.v               ;         ;
+; ../../src/mux_8.v                  ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/mux_8.v                  ;         ;
+; ../../src/LEDs.v                   ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/LEDs.v                   ;         ;
+; ../../src/decoder_3_8.v            ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/decoder_3_8.v            ;         ;
+; ../../src/bi_register_8.v          ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v          ;         ;
+; ../../src/bi_direction_counter_8.v ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v ;         ;
++------------------------------------+-----------------+------------------------+-------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -295,31 +295,31 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Apr 26 09:20:10 2020
+    Info: Processing started: Sun Apr 26 09:15:20 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off LEDs -c LEDs
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/freq_div.v
-    Info (12023): Found entity 1: freq_div File: G:/Digital Lab/Lab 1/src/freq_div.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/mux_8.v
-    Info (12023): Found entity 1: mux_8 File: G:/Digital Lab/Lab 1/src/mux_8.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/leds.v
-    Info (12023): Found entity 1: LEDs File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 13
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/decoder_3_8.v
-    Info (12023): Found entity 1: decoder_3_8 File: G:/Digital Lab/Lab 1/src/decoder_3_8.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/bi_register_8.v
-    Info (12023): Found entity 1: bi_register_8 File: G:/Digital Lab/Lab 1/src/bi_register_8.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file /digital lab/lab 1/src/bi_direction_counter_8.v
-    Info (12023): Found entity 1: bi_direction_counter_8 File: G:/Digital Lab/Lab 1/src/bi_direction_counter_8.v Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/freq_div.v
+    Info (12023): Found entity 1: freq_div File: D:/WNZ/Digital Lab/Lab 1/src/freq_div.v Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/mux_8.v
+    Info (12023): Found entity 1: mux_8 File: D:/WNZ/Digital Lab/Lab 1/src/mux_8.v Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/leds.v
+    Info (12023): Found entity 1: LEDs File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 13
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/decoder_3_8.v
+    Info (12023): Found entity 1: decoder_3_8 File: D:/WNZ/Digital Lab/Lab 1/src/decoder_3_8.v Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/bi_register_8.v
+    Info (12023): Found entity 1: bi_register_8 File: D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v Line: 7
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 1/src/bi_direction_counter_8.v
+    Info (12023): Found entity 1: bi_direction_counter_8 File: D:/WNZ/Digital Lab/Lab 1/src/bi_direction_counter_8.v Line: 7
 Info (12127): Elaborating entity "LEDs" for the top level hierarchy
-Info (12128): Elaborating entity "freq_div" for hierarchy "freq_div:freq_div_inst" File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 30
-Warning (10230): Verilog HDL assignment warning at freq_div.v(34): truncated value with size 32 to match size of target (26) File: G:/Digital Lab/Lab 1/src/freq_div.v Line: 34
-Info (12128): Elaborating entity "bi_direction_counter_8" for hierarchy "bi_direction_counter_8:bi_direction_counter_8_inst" File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 44
-Info (12128): Elaborating entity "decoder_3_8" for hierarchy "decoder_3_8:decoder_3_8_inst" File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 54
-Info (12128): Elaborating entity "bi_register_8" for hierarchy "bi_register_8:bi_register_8_inst" File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 64
-Info (12128): Elaborating entity "mux_8" for hierarchy "mux_8:mux_8_inst" File: G:/Digital Lab/Lab 1/src/LEDs.v Line: 77
-Warning (10240): Verilog HDL Always Construct warning at mux_8.v(17): inferring latch(es) for variable "y", which holds its previous value in one or more paths through the always construct File: G:/Digital Lab/Lab 1/src/mux_8.v Line: 17
-Info (13000): Registers with preset signals will power-up high File: G:/Digital Lab/Lab 1/src/bi_register_8.v Line: 24
+Info (12128): Elaborating entity "freq_div" for hierarchy "freq_div:freq_div_inst" File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 30
+Warning (10230): Verilog HDL assignment warning at freq_div.v(34): truncated value with size 32 to match size of target (26) File: D:/WNZ/Digital Lab/Lab 1/src/freq_div.v Line: 34
+Info (12128): Elaborating entity "bi_direction_counter_8" for hierarchy "bi_direction_counter_8:bi_direction_counter_8_inst" File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 44
+Info (12128): Elaborating entity "decoder_3_8" for hierarchy "decoder_3_8:decoder_3_8_inst" File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 54
+Info (12128): Elaborating entity "bi_register_8" for hierarchy "bi_register_8:bi_register_8_inst" File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 64
+Info (12128): Elaborating entity "mux_8" for hierarchy "mux_8:mux_8_inst" File: D:/WNZ/Digital Lab/Lab 1/src/LEDs.v Line: 77
+Warning (10240): Verilog HDL Always Construct warning at mux_8.v(17): inferring latch(es) for variable "y", which holds its previous value in one or more paths through the always construct File: D:/WNZ/Digital Lab/Lab 1/src/mux_8.v Line: 17
+Info (13000): Registers with preset signals will power-up high File: D:/WNZ/Digital Lab/Lab 1/src/bi_register_8.v Line: 24
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -330,8 +330,8 @@ Info (21057): Implemented 74 device resources after synthesis - the final resour
     Info (21061): Implemented 63 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
     Info: Peak virtual memory: 4771 megabytes
-    Info: Processing ended: Sun Apr 26 09:20:25 2020
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Processing ended: Sun Apr 26 09:15:36 2020
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:26
 
 

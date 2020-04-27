@@ -1,0 +1,16 @@
+Quartus Prime Archive log --	D:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/decoder_WNZ.qarlog
+
+Archive:	D:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/decoder_WNZ.qar
+Date:		Sun Apr 26 09:37:10 2020
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/Waveform.vwf
+D:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/decoder_3_8.qpf
+D:/WNZ/Digital Lab/Lab 1/prj/decoder_3_8/decoder_3_8.qsf
+D:/WNZ/Digital Lab/Lab 1/src/decoder_3_8.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 5 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
