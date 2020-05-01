@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/WNZ/Digital Lab/Lab 2/prj/alarm_clock/simulation/qsim
+valarm_clock
+Z1 !s110 1588350482
+!i10b 1
+!s100 o@dX1:7Yn@W]@WzJGfXmo1
+I[jPRUL:`O5B3z^FjVoS[d2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1588350481
+Z4 8alarm_clock.vo
+Z5 Falarm_clock.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1588350482.000000
+Z8 !s107 alarm_clock.vo|
+Z9 !s90 -work|work|alarm_clock.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+valarm_clock_vlg_vec_tst
+R1
+!i10b 1
+!s100 ]bQi1NOl^BzE53X5I7L^J0
+IM3R5XJUl9e:Fk_6?Pb[mQ2
+R2
+R0
+w1588350479
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 DDYVek4:Wbd^<:^`kGX=Z2
+IIT6IKMedo4m`9_DnaDgNe0
+R2
+R0
+R3
+R4
+R5
+L0 3148
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

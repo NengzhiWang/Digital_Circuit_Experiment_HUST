@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/WNZ/Digital Lab/Lab 2/prj/clock/simulation/qsim
+vclock
+Z1 !s110 1588341237
+!i10b 1
+!s100 Ingh2^4L8OjS6P[@@;H6P2
+IaXji3Bme:M]E0^@N;z5SF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1588341236
+Z4 8clock.vo
+Z5 Fclock.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1588341237.000000
+Z8 !s107 clock.vo|
+Z9 !s90 -work|work|clock.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vclock_vlg_vec_tst
+!s110 1588341238
+!i10b 1
+!s100 lZUWWzljdDcR4Z=Nkc=mb1
+ISkKejOKF@31X`ZX43RdZ72
+R2
+R0
+w1588341235
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+!s108 1588341238.000000
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 J[G][5KAV<mDa;``hjo=G0
+IcShFGZ43kk[4jG^ifDe4M3
+R2
+R0
+R3
+R4
+R5
+L0 1773
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
