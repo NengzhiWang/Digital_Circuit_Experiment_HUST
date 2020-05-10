@@ -104,7 +104,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "alarm_min_set",
+					"name" : "timing_en_1",
+					"strict" : false
+				},
+				{
+					"name" : "timing_en_2",
 					"strict" : false
 				},
 				{
@@ -112,7 +116,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "alarm_min_set",
+					"strict" : false
+				},
+				{
+					"name" : "clk_1Hz",
 					"strict" : false
 				},
 				{

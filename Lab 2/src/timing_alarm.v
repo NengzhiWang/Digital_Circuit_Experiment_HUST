@@ -1,0 +1,28 @@
+module timing_alarm
+(
+    input [3:0] clock_sec_01,
+    input [3:0] clock_sec_10,
+    input [3:0] clock_min_10,
+    input [3:0] clock_min_01,
+    input [3:0] clock_hour_01,
+    input [3:0] clock_hour_10,
+    output wire timing_en_1,
+    output wire timing_en_2
+);
+    wire sec_01;
+    wire sec_10;
+
+    wire min_01;
+    wire min_10;
+
+    assign min_01 = (clock_min_01 == 4'b1001) ? 1'b1 : 1'b0;
+    assign sec_01 = (clock_sec_01 >= 4'b0101) ? 1'b1 : 1'b0;
+
+    assign min_10 = (clock_min_10 == 4'b0101) ? 1'b1 : 1'b0;
+    assign sec_10 = (clock_sec_10 == 4'b0101) ? 1'b1 : 1'b0;
+
+    assign timing_en_1 = ((sec_01 & sec_10 & min_01 & min_10) == 1'b1) ? 1'b1 : 1'b0;
+
+    assign timing_en_2 = ({clock_min_10, clock_min_01, clock_sec_10, clock_sec_01} == 16'b0) ? 1'b1 : 1'b0;
+
+endmodule // 

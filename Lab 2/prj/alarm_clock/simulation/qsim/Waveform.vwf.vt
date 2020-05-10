@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/02/2020 00:27:59"
+// Generated on "05/02/2020 15:09:36"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          alarm_clock
 // 
@@ -31,7 +31,7 @@ module alarm_clock_vlg_vec_tst();
 // general purpose registers
 reg alarm_hour_set;
 reg alarm_min_set;
-reg clk;
+reg clk_1Hz;
 reg hour_correct;
 reg min_correct;
 // wires                                               
@@ -42,6 +42,8 @@ wire [3:0] min_01;
 wire [3:0] min_10;
 wire [3:0] sec_01;
 wire [3:0] sec_10;
+wire timing_en_1;
+wire timing_en_2;
 
 // assign statements (if any)                          
 alarm_clock i1 (
@@ -49,7 +51,7 @@ alarm_clock i1 (
 	.alarm_en(alarm_en),
 	.alarm_hour_set(alarm_hour_set),
 	.alarm_min_set(alarm_min_set),
-	.clk(clk),
+	.clk_1Hz(clk_1Hz),
 	.hour_01(hour_01),
 	.hour_10(hour_10),
 	.hour_correct(hour_correct),
@@ -57,39 +59,39 @@ alarm_clock i1 (
 	.min_10(min_10),
 	.min_correct(min_correct),
 	.sec_01(sec_01),
-	.sec_10(sec_10)
+	.sec_10(sec_10),
+	.timing_en_1(timing_en_1),
+	.timing_en_2(timing_en_2)
 );
 initial 
 begin 
 #5000000 $finish;
 end 
 
-// clk
+// clk_1Hz
 initial
 begin
-	clk = 1'b1;
+	clk_1Hz = 1'b1;
 	# 2500;
 	repeat(999)
 	begin
-		clk = 1'b0;
-		clk = #2500 1'b1;
+		clk_1Hz = 1'b0;
+		clk_1Hz = #2500 1'b1;
 		# 2500;
 	end
-	clk = 1'b0;
-end 
-
-// alarm_hour_set
-initial
-begin
-	alarm_hour_set = 1'b0;
+	clk_1Hz = 1'b0;
 end 
 
 // alarm_min_set
 initial
 begin
 	alarm_min_set = 1'b0;
-	alarm_min_set = #10000 1'b1;
-	alarm_min_set = #10000 1'b0;
+end 
+
+// alarm_hour_set
+initial
+begin
+	alarm_hour_set = 1'b0;
 end 
 
 // hour_correct
@@ -102,6 +104,8 @@ end
 initial
 begin
 	min_correct = 1'b0;
+	min_correct = #10000 1'b1;
+	min_correct = #280000 1'b0;
 end 
 endmodule
 

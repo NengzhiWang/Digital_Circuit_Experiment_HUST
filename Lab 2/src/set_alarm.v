@@ -16,8 +16,8 @@ module set_alarm
         .clk        (clk),
         .clr_n      (1'b1),
         .en         (min_set),
-        .Q_10       (min_10),
         .Q_01       (min_01),
+        .Q_10       (min_10),
         .cout       ()
     );
 
@@ -29,9 +29,6 @@ module set_alarm
         .Q_01       (hour_01),
         .Q_10       (hour_10)
     );
-
-
-
 
 
 endmodule

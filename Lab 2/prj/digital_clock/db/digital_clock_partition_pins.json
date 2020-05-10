@@ -1,0 +1,205 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sec_01_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_01_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sec_10_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "min_01_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "min_10_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_01_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hour_10_disp[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tone_500",
+					"strict" : false
+				},
+				{
+					"name" : "tone_1k",
+					"strict" : false
+				},
+				{
+					"name" : "alarm_hour_set",
+					"strict" : false
+				},
+				{
+					"name" : "alarm_min_set",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50MHz",
+					"strict" : false
+				},
+				{
+					"name" : "min_correct",
+					"strict" : false
+				},
+				{
+					"name" : "hour_correct",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

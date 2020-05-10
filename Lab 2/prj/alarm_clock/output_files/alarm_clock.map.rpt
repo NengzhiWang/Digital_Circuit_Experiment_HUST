@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alarm_clock
-Sat May 02 00:27:15 2020
+Sat May 02 15:05:38 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -48,16 +48,16 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat May 02 00:27:15 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sat May 02 15:05:38 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; alarm_clock                                 ;
 ; Top-level Entity Name              ; alarm_clock                                 ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 99                                          ;
-;     Total combinational functions  ; 99                                          ;
+; Total logic elements               ; 111                                         ;
+;     Total combinational functions  ; 111                                         ;
 ;     Dedicated logic registers      ; 40                                          ;
 ; Total registers                    ; 40                                          ;
-; Total pins                         ; 30                                          ;
+; Total pins                         ; 32                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -168,63 +168,67 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                             ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path               ; Library ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------+---------+
-; ../../src/set_alarm.v            ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/set_alarm.v   ;         ;
-; ../../src/counter_60.v           ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/counter_60.v  ;         ;
-; ../../src/counter_24.v           ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/counter_24.v  ;         ;
-; ../../src/alarm_clock.v          ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v ;         ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                  ; Library ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------+---------+
+; ../../src/timing_alarm.v         ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/timing_alarm.v   ;         ;
+; ../../src/alarm_clock_EQ.v       ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/alarm_clock_EQ.v ;         ;
+; ../../src/set_alarm.v            ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/set_alarm.v      ;         ;
+; ../../src/counter_60.v           ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/counter_60.v     ;         ;
+; ../../src/counter_24.v           ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/counter_24.v     ;         ;
+; ../../src/alarm_clock.v          ; yes             ; User Verilog HDL File  ; D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v    ;         ;
++----------------------------------+-----------------+------------------------+-----------------------------------------------+---------+
 
 
-+---------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary             ;
-+---------------------------------------------+-----------+
-; Resource                                    ; Usage     ;
-+---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 99        ;
-;                                             ;           ;
-; Total combinational functions               ; 99        ;
-; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 54        ;
-;     -- 3 input functions                    ; 28        ;
-;     -- <=2 input functions                  ; 17        ;
-;                                             ;           ;
-; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 99        ;
-;     -- arithmetic mode                      ; 0         ;
-;                                             ;           ;
-; Total registers                             ; 40        ;
-;     -- Dedicated logic registers            ; 40        ;
-;     -- I/O registers                        ; 0         ;
-;                                             ;           ;
-; I/O pins                                    ; 30        ;
-;                                             ;           ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
-;                                             ;           ;
-; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 40        ;
-; Total fan-out                               ; 482       ;
-; Average fan-out                             ; 2.42      ;
-+---------------------------------------------+-----------+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 111           ;
+;                                             ;               ;
+; Total combinational functions               ; 111           ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 80            ;
+;     -- 3 input functions                    ; 10            ;
+;     -- <=2 input functions                  ; 21            ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 111           ;
+;     -- arithmetic mode                      ; 0             ;
+;                                             ;               ;
+; Total registers                             ; 40            ;
+;     -- Dedicated logic registers            ; 40            ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 32            ;
+;                                             ;               ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; clk_1Hz~input ;
+; Maximum fan-out                             ; 40            ;
+; Total fan-out                               ; 544           ;
+; Average fan-out                             ; 2.53          ;
++---------------------------------------------+---------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                               ;
-+-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                       ; Entity Name ; Library Name ;
-+-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+-------------+--------------+
-; |alarm_clock                  ; 99 (29)             ; 40 (0)                    ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |alarm_clock                                              ; alarm_clock ; work         ;
-;    |counter_24:hour_counter|  ; 15 (15)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_24:hour_counter                      ; counter_24  ; work         ;
-;    |counter_60:min_counter|   ; 12 (12)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_60:min_counter                       ; counter_60  ; work         ;
-;    |counter_60:sec_counter|   ; 14 (14)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_60:sec_counter                       ; counter_60  ; work         ;
-;    |set_alarm:alarm_seting|   ; 29 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting                       ; set_alarm   ; work         ;
-;       |counter_24:hour_alarm| ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting|counter_24:hour_alarm ; counter_24  ; work         ;
-;       |counter_60:min_alarm|  ; 13 (13)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting|counter_60:min_alarm  ; counter_60  ; work         ;
-+-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+-------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                  ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+----------------+--------------+
+; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                       ; Entity Name    ; Library Name ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+----------------+--------------+
+; |alarm_clock                  ; 111 (18)            ; 40 (0)                    ; 0           ; 0            ; 0       ; 0         ; 32   ; 0            ; |alarm_clock                                              ; alarm_clock    ; work         ;
+;    |alarm_clock_EQ:ALARM|     ; 12 (12)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|alarm_clock_EQ:ALARM                         ; alarm_clock_EQ ; work         ;
+;    |counter_24:hour_counter|  ; 15 (15)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_24:hour_counter                      ; counter_24     ; work         ;
+;    |counter_60:min_counter|   ; 12 (12)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_60:min_counter                       ; counter_60     ; work         ;
+;    |counter_60:sec_counter|   ; 13 (13)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|counter_60:sec_counter                       ; counter_60     ; work         ;
+;    |set_alarm:alarm_seting|   ; 30 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting                       ; set_alarm      ; work         ;
+;       |counter_24:hour_alarm| ; 17 (17)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting|counter_24:hour_alarm ; counter_24     ; work         ;
+;       |counter_60:min_alarm|  ; 13 (13)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|set_alarm:alarm_seting|counter_60:min_alarm  ; counter_60     ; work         ;
+;    |timing_alarm:T_alarm|     ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alarm_clock|timing_alarm:T_alarm                         ; timing_alarm   ; work         ;
++-------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------+----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -313,19 +317,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 30                          ;
+; boundary_port         ; 32                          ;
 ; cycloneiii_ff         ; 40                          ;
 ;     ENA               ; 18                          ;
 ;     plain             ; 22                          ;
-; cycloneiii_lcell_comb ; 99                          ;
-;     normal            ; 99                          ;
+; cycloneiii_lcell_comb ; 111                         ;
+;     normal            ; 111                         ;
 ;         1 data inputs ; 5                           ;
-;         2 data inputs ; 12                          ;
-;         3 data inputs ; 28                          ;
-;         4 data inputs ; 54                          ;
+;         2 data inputs ; 16                          ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 80                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 5.00                        ;
-; Average LUT depth     ; 2.93                        ;
+; Average LUT depth     ; 3.00                        ;
 +-----------------------+-----------------------------+
 
 
@@ -344,10 +348,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat May 02 00:27:01 2020
+    Info: Processing started: Sat May 02 15:05:22 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alarm_clock -c alarm_clock
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/timing_alarm.v
+    Info (12023): Found entity 1: timing_alarm File: D:/WNZ/Digital Lab/Lab 2/src/timing_alarm.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/alarm_clock_eq.v
     Info (12023): Found entity 1: alarm_clock_EQ File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock_EQ.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/set_alarm.v
@@ -361,21 +367,23 @@ Info (12021): Found 1 design units, including 1 entities, in source file /wnz/di
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/alarm_clock.v
     Info (12023): Found entity 1: alarm_clock File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 1
 Info (12127): Elaborating entity "alarm_clock" for the top level hierarchy
-Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 65
+Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 71
 Warning (10230): Verilog HDL assignment warning at counter_60.v(12): truncated value with size 32 to match size of target (1) File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 12
-Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 85
-Info (12128): Elaborating entity "set_alarm" for hierarchy "set_alarm:alarm_seting" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 98
+Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 90
+Info (12128): Elaborating entity "set_alarm" for hierarchy "set_alarm:alarm_seting" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 102
+Info (12128): Elaborating entity "alarm_clock_EQ" for hierarchy "alarm_clock_EQ:ALARM" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 120
+Info (12128): Elaborating entity "timing_alarm" for hierarchy "timing_alarm:T_alarm" File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 135
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 129 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 143 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 5 input pins
-    Info (21059): Implemented 25 output pins
-    Info (21061): Implemented 99 logic cells
+    Info (21059): Implemented 27 output pins
+    Info (21061): Implemented 111 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4773 megabytes
-    Info: Processing ended: Sat May 02 00:27:15 2020
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4772 megabytes
+    Info: Processing ended: Sat May 02 15:05:38 2020
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:28
 
 
