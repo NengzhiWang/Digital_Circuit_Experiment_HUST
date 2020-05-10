@@ -3,7 +3,7 @@ $comment
 		vcd file mult_freq_div.msim.vcd -direction
 $end
 $date
-	Sun Apr 26 23:13:32 2020
+	Thu May 07 23:05:00 2020
 $end
 $version
 	ModelSim Version 10.5b

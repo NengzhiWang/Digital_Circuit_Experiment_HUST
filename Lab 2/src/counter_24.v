@@ -1,10 +1,10 @@
 module counter_24
 (
-    input 		clk,
-    input 		clr_n,
-    input 		en,
-    output reg 	[3:0] Q_01,
-    output reg 	[3:0] Q_10
+    input 		clk,            // 1Hz clock signal
+    input 		clr_n,          // clear signal
+    input 		en,             // high enable signal
+    output reg 	[3:0] Q_01,     // BCD code
+    output reg 	[3:0] Q_10      // BCD code
 );
     always@(posedge clk or negedge clr_n)
     begin
@@ -38,6 +38,5 @@ module counter_24
                 Q_01 <= Q_01 + 1'b1;
             end
     end
-
-
+    
 endmodule

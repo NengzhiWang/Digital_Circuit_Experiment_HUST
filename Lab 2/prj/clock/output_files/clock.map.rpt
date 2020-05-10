@@ -1,5 +1,5 @@
 Analysis & Synthesis report for clock
-Fri May 01 21:47:02 2020
+Thu May 07 23:23:35 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri May 01 21:47:02 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu May 07 23:23:35 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; clock                                       ;
 ; Top-level Entity Name              ; clock                                       ;
@@ -305,7 +305,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -315,20 +315,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri May 01 21:46:44 2020
+    Info: Processing started: Thu May 07 23:23:13 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off clock -c clock
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/counter_60.v
-    Info (12023): Found entity 1: counter_60 File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 2
+    Info (12023): Found entity 1: counter_60 File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/counter_24.v
     Info (12023): Found entity 1: counter_24 File: D:/WNZ/Digital Lab/Lab 2/src/counter_24.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/clock.v
     Info (12023): Found entity 1: clock File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 1
 Info (12127): Elaborating entity "clock" for the top level hierarchy
-Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 31
-Warning (10230): Verilog HDL assignment warning at counter_60.v(12): truncated value with size 32 to match size of target (1) File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 12
-Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 51
+Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 32
+Warning (10230): Verilog HDL assignment warning at counter_60.v(11): truncated value with size 32 to match size of target (1) File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 11
+Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 53
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -337,9 +337,9 @@ Info (21057): Implemented 70 device resources after synthesis - the final resour
     Info (21059): Implemented 24 output pins
     Info (21061): Implemented 43 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4772 megabytes
-    Info: Processing ended: Fri May 01 21:47:02 2020
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:27
+    Info: Peak virtual memory: 4774 megabytes
+    Info: Processing ended: Thu May 07 23:23:35 2020
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:32
 
 

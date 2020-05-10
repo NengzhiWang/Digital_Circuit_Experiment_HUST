@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/01/2020 21:53:55"
+// Generated on "05/08/2020 00:09:53"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          clock
 // 
@@ -62,28 +62,20 @@ end
 always
 begin
 	clk = 1'b0;
-	clk = #2000 1'b1;
-	#2000;
+	clk = #2500 1'b1;
+	#2500;
 end 
 
 // hour_correct
 initial
 begin
 	hour_correct = 1'b0;
-	hour_correct = #130000 1'b1;
-	hour_correct = #20000 1'b0;
-	hour_correct = #130000 1'b1;
-	hour_correct = #40000 1'b0;
 end 
 
 // min_correct
 initial
 begin
 	min_correct = 1'b0;
-	min_correct = #90000 1'b1;
-	min_correct = #20000 1'b0;
-	min_correct = #90000 1'b1;
-	min_correct = #40000 1'b0;
 end 
 endmodule
 

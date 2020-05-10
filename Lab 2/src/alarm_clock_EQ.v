@@ -15,15 +15,23 @@ module alarm_clock_EQ
 
     output wire alarm_en
 );
-    wire [15:0] clock_time;
-    wire [15:0] alarm_time;
+
+    // 10 of hour is equal
+    wire hour_10_equal;
+    assign hour_10_equal    = (clock_hour_10 == alarm_hour_10)  ? 1'b1 : 1'b0;
+    // 01 of hour is equal
+    wire hour_01_equal;
+    assign hour_01_equal    = (clock_hour_01 == alarm_hour_01)  ? 1'b1 : 1'b0;
+    // 10 of min is equal
+    wire min_10_equal;
+    assign min_10_equal     = (clock_min_10 == alarm_min_10)    ? 1'b1 : 1'b0;
+    // 01 of min is equal
+    wire min_01_equal;
+    assign min_01_equal     = (clock_min_01 == alarm_min_01)    ? 1'b1 : 1'b0;
+    // clock is equal to alarm
     wire equal;
-    assign clock_time = {clock_hour_10, clock_hour_01, clock_min_10, clock_min_01};
-    assign alarm_time = {alarm_hour_10, alarm_hour_01, alarm_min_10, alarm_min_01};
-
-    assign equal = (clock_time == alarm_time) ? 1'b1 : 1'b0;
-
+    assign equal = (hour_10_equal & hour_01_equal & min_10_equal & min_01_equal);
+    // enable clock in 0-29 sec
     assign alarm_en = (equal & clock_sec_10 < 4'b0011) ? 1'b1 : 1'b0;
-
 
 endmodule

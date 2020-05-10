@@ -172,6 +172,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "alarm_en",
+					"strict" : false
+				},
+				{
 					"name" : "tone_500",
 					"strict" : false
 				},

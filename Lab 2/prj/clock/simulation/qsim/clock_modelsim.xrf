@@ -2,6 +2,7 @@ vendor_name = ModelSim
 source_file = 1, D:/WNZ/Digital Lab/Lab 2/src/counter_60.v
 source_file = 1, D:/WNZ/Digital Lab/Lab 2/src/counter_24.v
 source_file = 1, D:/WNZ/Digital Lab/Lab 2/src/clock.v
+source_file = 1, D:/WNZ/Digital Lab/Lab 2/prj/clock/Waveform1.vwf
 source_file = 1, D:/WNZ/Digital Lab/Lab 2/prj/clock/db/clock.cbx.xml
 design_name = clock
 instance = comp, \sec_01[0]~output , sec_01[0]~output, clock, 1

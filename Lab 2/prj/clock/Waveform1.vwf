@@ -20,6 +20,10 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
+
+
+
 </modelsim_script>
 <modelsim_script_timing>onerror {exit -code 1}
 vlib work
@@ -38,6 +42,10 @@ proc simTimestamp {} {
 after 2500 simTimestamp
 run -all
 quit -f
+
+
+
+
 </modelsim_script_timing>
 <hdl_lang>verilog</hdl_lang>
 </simulation_settings>*/
@@ -412,9 +420,9 @@ TRANSITION_LIST("clk")
 		REPEAT = 1;
 		NODE
 		{
-			REPEAT = 250;
-			LEVEL 0 FOR 2.0;
-			LEVEL 1 FOR 2.0;
+			REPEAT = 200;
+			LEVEL 0 FOR 2.5;
+			LEVEL 1 FOR 2.5;
 		}
 	}
 }
@@ -424,7 +432,8 @@ TRANSITION_LIST("hour_01[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -433,7 +442,8 @@ TRANSITION_LIST("hour_01[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -442,7 +452,8 @@ TRANSITION_LIST("hour_01[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -451,7 +462,8 @@ TRANSITION_LIST("hour_01[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -460,7 +472,8 @@ TRANSITION_LIST("hour_10[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -469,7 +482,8 @@ TRANSITION_LIST("hour_10[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -478,7 +492,8 @@ TRANSITION_LIST("hour_10[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -487,7 +502,8 @@ TRANSITION_LIST("hour_10[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -496,11 +512,7 @@ TRANSITION_LIST("hour_correct")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 130.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 130.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 680.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -509,7 +521,8 @@ TRANSITION_LIST("min_01[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -518,7 +531,8 @@ TRANSITION_LIST("min_01[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -527,7 +541,8 @@ TRANSITION_LIST("min_01[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -536,7 +551,8 @@ TRANSITION_LIST("min_01[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -545,7 +561,8 @@ TRANSITION_LIST("min_10[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -554,7 +571,8 @@ TRANSITION_LIST("min_10[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -563,7 +581,8 @@ TRANSITION_LIST("min_10[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -572,7 +591,8 @@ TRANSITION_LIST("min_10[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -581,11 +601,7 @@ TRANSITION_LIST("min_correct")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 20.0;
-		LEVEL 0 FOR 90.0;
-		LEVEL 1 FOR 40.0;
-		LEVEL 0 FOR 760.0;
+		LEVEL 0 FOR 1000.0;
 	}
 }
 
@@ -594,7 +610,8 @@ TRANSITION_LIST("sec_01[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -603,7 +620,8 @@ TRANSITION_LIST("sec_01[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -612,7 +630,8 @@ TRANSITION_LIST("sec_01[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -621,7 +640,8 @@ TRANSITION_LIST("sec_01[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -630,7 +650,8 @@ TRANSITION_LIST("sec_10[3]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -639,7 +660,8 @@ TRANSITION_LIST("sec_10[2]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -648,7 +670,8 @@ TRANSITION_LIST("sec_10[1]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 
@@ -657,7 +680,8 @@ TRANSITION_LIST("sec_10[0]")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL X FOR 1000.0;
+		LEVEL X FOR 359.0;
+		LEVEL 0 FOR 641.0;
 	}
 }
 

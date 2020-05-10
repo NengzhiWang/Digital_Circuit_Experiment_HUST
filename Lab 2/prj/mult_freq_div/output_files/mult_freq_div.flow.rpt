@@ -1,5 +1,5 @@
 Flow report for mult_freq_div
-Sun Apr 26 23:13:30 2020
+Thu May 07 23:04:55 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Apr 26 23:13:30 2020       ;
+; Flow Status                        ; Successful - Thu May 07 23:04:55 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; mult_freq_div                               ;
 ; Top-level Entity Name              ; mult_freq_div                               ;
@@ -97,7 +97,9 @@ refer to the applicable agreement for further details.
 ; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 4843 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4637 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
-; Total                ; 00:00:40     ; --                      ; --                  ; 00:00:56                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4638 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4646 MB             ; 00:00:01                           ;
+; Total                ; 00:00:43     ; --                      ; --                  ; 00:00:58                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -112,6 +114,8 @@ refer to the applicable agreement for further details.
 ; Timing Analyzer      ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; WNZ              ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -122,6 +126,8 @@ quartus_map --read_settings_files=on --write_settings_files=off mult_freq_div -c
 quartus_fit --read_settings_files=off --write_settings_files=off mult_freq_div -c mult_freq_div
 quartus_asm --read_settings_files=off --write_settings_files=off mult_freq_div -c mult_freq_div
 quartus_sta mult_freq_div -c mult_freq_div
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off mult_freq_div -c mult_freq_div --vector_source="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/Waveform.vwf" --testbench_file="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/simulation/qsim/" mult_freq_div -c mult_freq_div
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off mult_freq_div -c mult_freq_div --vector_source="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/Waveform.vwf" --testbench_file="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/simulation/qsim/Waveform.vwf.vt"
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/WNZ/Digital Lab/Lab 2/prj/mult_freq_div/simulation/qsim/" mult_freq_div -c mult_freq_div
 

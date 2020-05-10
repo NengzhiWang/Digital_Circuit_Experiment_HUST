@@ -1,14 +1,14 @@
 module clock
 (
-    input       clk,
-    input       min_correct,
-    input       hour_correct,
-    output wire [3:0] sec_01,
-    output wire [3:0] sec_10,
-    output wire [3:0] min_01,
-    output wire [3:0] min_10,
-    output wire [3:0] hour_01,
-    output wire [3:0] hour_10
+    input       clk,            // 1Hz clock
+    input       min_correct,    // min correct signal
+    input       hour_correct,   // hour correct
+    output wire [3:0] sec_01,   // sec BCD code
+    output wire [3:0] sec_10,   // sec BCD code
+    output wire [3:0] min_01,   // min BCD code
+    output wire [3:0] min_10,   // min BCD code
+    output wire [3:0] hour_01,  // hour BCD code
+    output wire [3:0] hour_10   // hour BCD code
 );
 
     wire sec_cout;
@@ -19,7 +19,8 @@ module clock
 
     assign min_en   = (sec_cout || min_correct);
     assign hour_en  = (sec_cout & min_cout) || hour_correct;
-
+    
+    // sec counter
     counter_60 sec_counter
     (
         .clk        (clk),
@@ -30,7 +31,7 @@ module clock
         .cout       (sec_cout)
     );
 
-
+    // min counter
     counter_60 min_counter
     (
         .clk        (clk),
@@ -41,6 +42,7 @@ module clock
         .cout       (min_cout)
     );
 
+    // hour counter
     counter_24 hour_counter
     (
         .clk        (clk),

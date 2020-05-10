@@ -5,13 +5,17 @@ module digital_clock
     input       hour_correct,       // hour correction
     input       alarm_hour_set,     // set alarm of hour
     input       alarm_min_set,      // set alarm of min
+    input       alarm_switch,
 
+    
     output wire [6:0] sec_01_disp,
     output wire [6:0] sec_10_disp,
     output wire [6:0] min_01_disp,
     output wire [6:0] min_10_disp,
     output wire [6:0] hour_01_disp,
     output wire [6:0] hour_10_disp,
+
+    output reg  alarm_en,
 
     output wire tone_500,
     output wire tone_1k
@@ -77,6 +81,12 @@ module digital_clock
 
 
 /** alarm setting circuit **/
+
+    always @(alarm_switch)
+    begin
+        alarm_en = ~alarm_en;
+    end
+
     wire [3:0] alarm_min_01;
     wire [3:0] alarm_min_10;
     wire [3:0] alarm_hour_01;
@@ -95,6 +105,44 @@ module digital_clock
         .hour_10    (alarm_hour_10)
     );
 
+
+
+
+/** alarm compare circuit **/
+    wire alarm_equal;
+    alarm_clock_EQ ALARM
+    (
+        .clock_sec_01       (clock_sec_01),
+        .clock_sec_10       (clock_sec_10),
+        .clock_min_10       (clock_min_10),
+        .clock_min_01       (clock_min_01),
+        .clock_hour_01      (clock_hour_01),
+        .clock_hour_10      (clock_hour_10),
+
+        .alarm_min_01       (alarm_min_01),
+        .alarm_min_10       (alarm_min_10),
+        .alarm_hour_01      (alarm_hour_01),
+        .alarm_hour_10      (alarm_hour_10),
+
+        .alarm_equal        (alarm_equal)
+    );
+
+
+/** timing alarm circuit **/
+    wire timing_en_1;
+    wire timing_en_2;
+    timing_alarm T_alarm
+    (
+        .clock_sec_01       (clock_sec_01),
+        .clock_sec_10       (clock_sec_10),
+        .clock_min_10       (clock_min_10),
+        .clock_min_01       (clock_min_01),
+        .clock_hour_01      (clock_hour_01),
+        .clock_hour_10      (clock_hour_10),
+
+        .timing_en_1        (timing_en_1),
+        .timing_en_2        (timing_en_2)
+    );
 
 
 /** display circuit **/
@@ -149,48 +197,14 @@ module digital_clock
         .Dis_num        (hour_10_disp)
     );
 
-/** alarm compare circuit **/
-    wire alarm_en;
-    alarm_clock_EQ ALARM
-    (
-        .clock_sec_01       (clock_sec_01),
-        .clock_sec_10       (clock_sec_10),
-        .clock_min_10       (clock_min_10),
-        .clock_min_01       (clock_min_01),
-        .clock_hour_01      (clock_hour_01),
-        .clock_hour_10      (clock_hour_10),
-
-        .alarm_min_01       (alarm_min_01),
-        .alarm_min_10       (alarm_min_10),
-        .alarm_hour_01      (alarm_hour_01),
-        .alarm_hour_10      (alarm_hour_10),
-
-        .alarm_en           (alarm_en)
-    );
-
-
-/** timing alarm circuit **/
-    wire timing_en_1;
-    wire timing_en_2;
-    timing_alarm T_alarm
-    (
-        .clock_sec_01       (clock_sec_01),
-        .clock_sec_10       (clock_sec_10),
-        .clock_min_10       (clock_min_10),
-        .clock_min_01       (clock_min_01),
-        .clock_hour_01      (clock_hour_01),
-        .clock_hour_10      (clock_hour_10),
-
-        .timing_en_1        (timing_en_1),
-        .timing_en_2        (timing_en_2)
-    );
 
 /** tone circuit **/
     wire en_500;
     wire en_1k;
 
     assign en_500 = timing_en_1;
-    assign en_1k = timing_en_2 || alarm_en;
+    assign en_1k = timing_en_2 || (alarm_en & alarm_equal);
+    // assign en_1k = timing_en_2 || (alarm_en);
 
     tone T
     (
@@ -203,5 +217,8 @@ module digital_clock
         .tone_500       (tone_500),
         .tone_1k        (tone_1k)
     );
-
+/*
+    assign tone_500 = en_500;
+    assign tone_1k = en_1k;
+*/
 endmodule

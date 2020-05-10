@@ -1,11 +1,10 @@
-
 module counter_60
 (
-    input       clk,
-    input       clr_n,
-    input       en,
-    output reg  [3:0] Q_10,
-    output reg  [3:0] Q_01,
+    input       clk,            // 1Hz clock signal
+    input       clr_n,          // clear signal
+    input       en,             // high enable signal
+    output reg  [3:0] Q_10,     // BCD code
+    output reg  [3:0] Q_01,     // BCD code
     output wire cout
 );
 
@@ -49,6 +48,5 @@ module counter_60
                 // cout <= 1'b0;
             end
     end
-
 
 endmodule

@@ -14,7 +14,7 @@ module timing_alarm
 
     wire min_01;
     wire min_10;
-
+    // xx:59:55 to xx:59:59, 500Hz
     assign min_01 = (clock_min_01 == 4'b1001) ? 1'b1 : 1'b0;
     assign sec_01 = (clock_sec_01 >= 4'b0101) ? 1'b1 : 1'b0;
 
@@ -22,7 +22,7 @@ module timing_alarm
     assign sec_10 = (clock_sec_10 == 4'b0101) ? 1'b1 : 1'b0;
 
     assign timing_en_1 = ((sec_01 & sec_10 & min_01 & min_10) == 1'b1) ? 1'b1 : 1'b0;
-
+    // xx:00:00, 1kHz
     assign timing_en_2 = ({clock_min_10, clock_min_01, clock_sec_10, clock_sec_01} == 16'b0) ? 1'b1 : 1'b0;
 
-endmodule // 
+endmodule
