@@ -1,12 +1,10 @@
 module digital_clock
 (
-    input       clk_50MHz,
+    input       clk_50MHz,          // ex clock signal of 50MHz
     input       min_correct,        // min correction
     input       hour_correct,       // hour correction
     input       alarm_hour_set,     // set alarm of hour
     input       alarm_min_set,      // set alarm of min
-    input       alarm_switch,
-
     
     output wire [6:0] sec_01_disp,
     output wire [6:0] sec_10_disp,
@@ -14,11 +12,11 @@ module digital_clock
     output wire [6:0] min_10_disp,
     output wire [6:0] hour_01_disp,
     output wire [6:0] hour_10_disp,
-
-    output reg  alarm_en,
+    // clock display
 
     output wire tone_500,
     output wire tone_1k
+    // tone signal
 
 );
 /** frequenct divide circuit **/
@@ -82,11 +80,6 @@ module digital_clock
 
 /** alarm setting circuit **/
 
-    always @(alarm_switch)
-    begin
-        alarm_en = ~alarm_en;
-    end
-
     wire [3:0] alarm_min_01;
     wire [3:0] alarm_min_10;
     wire [3:0] alarm_hour_01;
@@ -105,9 +98,6 @@ module digital_clock
         .hour_10    (alarm_hour_10)
     );
 
-
-
-
 /** alarm compare circuit **/
     wire alarm_equal;
     alarm_clock_EQ ALARM
@@ -124,7 +114,7 @@ module digital_clock
         .alarm_hour_01      (alarm_hour_01),
         .alarm_hour_10      (alarm_hour_10),
 
-        .alarm_equal        (alarm_equal)
+        .alarm_en           (alarm_equal)
     );
 
 
@@ -203,8 +193,7 @@ module digital_clock
     wire en_1k;
 
     assign en_500 = timing_en_1;
-    assign en_1k = timing_en_2 || (alarm_en & alarm_equal);
-    // assign en_1k = timing_en_2 || (alarm_en);
+    assign en_1k = timing_en_2 || alarm_equal;
 
     tone T
     (
@@ -217,8 +206,5 @@ module digital_clock
         .tone_500       (tone_500),
         .tone_1k        (tone_1k)
     );
-/*
-    assign tone_500 = en_500;
-    assign tone_1k = en_1k;
-*/
+
 endmodule

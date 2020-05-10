@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "05/03/2020 21:17:11"
+// Generated on "05/10/2020 17:06:01"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          digital_clock
 // 
@@ -31,12 +31,10 @@ module digital_clock_vlg_vec_tst();
 // general purpose registers
 reg alarm_hour_set;
 reg alarm_min_set;
-reg alarm_switch;
 reg clk_50MHz;
 reg hour_correct;
 reg min_correct;
 // wires                                               
-wire alarm_en;
 wire [6:0] hour_01_disp;
 wire [6:0] hour_10_disp;
 wire [6:0] min_01_disp;
@@ -49,10 +47,8 @@ wire tone_500;
 // assign statements (if any)                          
 digital_clock i1 (
 // port map - connection between master ports and signals/registers   
-	.alarm_en(alarm_en),
 	.alarm_hour_set(alarm_hour_set),
 	.alarm_min_set(alarm_min_set),
-	.alarm_switch(alarm_switch),
 	.clk_50MHz(clk_50MHz),
 	.hour_01_disp(hour_01_disp),
 	.hour_10_disp(hour_10_disp),
@@ -67,7 +63,7 @@ digital_clock i1 (
 );
 initial 
 begin 
-#20000000 $finish;
+#10000000 $finish;
 end 
 
 // alarm_hour_set
@@ -79,21 +75,16 @@ end
 // alarm_min_set
 initial
 begin
-	alarm_min_set = 1'b0;
+	alarm_min_set = 1'b1;
+	alarm_min_set = #80000 1'b0;
 end 
 
 // clk_50MHz
-initial
+always
 begin
-	clk_50MHz = 1'b1;
-	# 2500;
-	repeat(3999)
-	begin
-		clk_50MHz = 1'b0;
-		clk_50MHz = #2500 1'b1;
-		# 2500;
-	end
 	clk_50MHz = 1'b0;
+	clk_50MHz = #500 1'b1;
+	#500;
 end 
 
 // hour_correct

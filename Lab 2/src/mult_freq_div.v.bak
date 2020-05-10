@@ -55,9 +55,8 @@ module mult_freq_div
             else
                 // counter ++
                 clk_cnt_3 <= clk_cnt_3 + 1;
-*/
+
         end
-
     end
-
+*/
 endmodule

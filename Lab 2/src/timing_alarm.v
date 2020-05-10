@@ -1,13 +1,15 @@
 module timing_alarm
 (
+    // clock signal
     input [3:0] clock_sec_01,
     input [3:0] clock_sec_10,
     input [3:0] clock_min_10,
     input [3:0] clock_min_01,
     input [3:0] clock_hour_01,
     input [3:0] clock_hour_10,
-    output wire timing_en_1,
-    output wire timing_en_2
+    // tone enable signal
+    output wire timing_en_1,    // 500Hz
+    output wire timing_en_2     // 1kHz
 );
     wire sec_01;
     wire sec_10;
