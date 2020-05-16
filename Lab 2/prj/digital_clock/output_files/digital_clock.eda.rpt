@@ -1,5 +1,5 @@
 EDA Netlist Writer report for digital_clock
-Sun May 10 17:06:03 2020
+Sat May 16 11:00:18 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -8,9 +8,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 ---------------------
   1. Legal Notice
   2. EDA Netlist Writer Summary
-  3. Simulation Settings
-  4. Simulation Generated Files
-  5. EDA Netlist Writer Messages
+  3. EDA Netlist Writer Messages
 
 
 
@@ -36,42 +34,11 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Sun May 10 17:06:03 2020 ;
+; EDA Netlist Writer Status ; Successful - Sat May 16 11:00:18 2020 ;
 ; Revision Name             ; digital_clock                         ;
 ; Top-level Entity Name     ; digital_clock                         ;
 ; Family                    ; Cyclone IV E                          ;
-; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                           ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Option                                                                                            ; Setting                   ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate functional simulation netlist                                                            ; On                        ;
-; Truncate long hierarchy paths                                                                     ; Off                       ;
-; Map illegal HDL characters                                                                        ; Off                       ;
-; Flatten buses into individual nodes                                                               ; Off                       ;
-; Maintain hierarchy                                                                                ; Off                       ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
-; Enable glitch filtering                                                                           ; Off                       ;
-; Do not write top level VHDL entity                                                                ; Off                       ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
-; Architecture name in VHDL output netlist                                                          ; structure                 ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
-+---------------------------------------------------------------------------------------------------+---------------------------+
-
-
-+------------------------------------------------------------------------------+
-; Simulation Generated Files                                                   ;
-+------------------------------------------------------------------------------+
-; Generated Files                                                              ;
-+------------------------------------------------------------------------------+
-; D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/qsim//digital_clock.vo ;
-+------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -93,13 +60,63 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Sun May 10 17:06:02 2020
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/qsim/" digital_clock -c digital_clock
+    Info: Processing started: Sat May 16 11:00:17 2020
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off digital_clock -c digital_clock --vector_source="D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/Waveform.vwf" --testbench_file="D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/modelsim/Waveform.vwf.vt"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file digital_clock.vo in folder "D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/qsim//" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4645 megabytes
-    Info: Processing ended: Sun May 10 17:06:03 2020
+Warning (201005): Ignoring output pin "hour_01_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_01_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "hour_10_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_01_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "min_10_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_01_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[6]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[5]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[4]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[3]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[2]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "sec_10_disp[0]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "tone_1k" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "tone_500" in vector source file when writing test bench files
+Info (201000): Generated Verilog Test Bench File D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/modelsim/Waveform.vwf.vt for simulation
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 51 warnings
+    Info: Peak virtual memory: 4638 megabytes
+    Info: Processing ended: Sat May 16 11:00:18 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
