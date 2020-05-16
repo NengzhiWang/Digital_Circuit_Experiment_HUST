@@ -51,7 +51,7 @@ module alarm_clock
 
 /** time display **/
     wire alarm_setting;
-    assign alarm_setting = (alarm_min_set || alarm_hour_set) ? 1'b1 : 1'b0;
+    assign alarm_setting = (alarm_min_set || alarm_hour_set);
     assign sec_01   = clock_sec_01;
     assign sec_10   = clock_sec_10;
     assign min_01   = (alarm_setting == 1'b1)   ?   alarm_min_01  : clock_min_01;

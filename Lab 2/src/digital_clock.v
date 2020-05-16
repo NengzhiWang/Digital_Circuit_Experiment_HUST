@@ -85,7 +85,7 @@ module digital_clock
     wire [3:0] alarm_hour_01;
     wire [3:0] alarm_hour_10;
     wire alarm_setting;
-    assign alarm_setting = (alarm_min_set || alarm_hour_set) ? 1'b1 : 1'b0;
+    assign alarm_setting = (alarm_min_set || alarm_hour_set);
 
     set_alarm alarm_seting
     (
