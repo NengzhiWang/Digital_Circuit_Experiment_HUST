@@ -1,5 +1,5 @@
 Analysis & Synthesis report for digital_clock
-Sat May 16 11:09:34 2020
+Sun May 17 21:39:43 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat May 16 11:09:34 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sun May 17 21:39:43 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; digital_clock                               ;
 ; Top-level Entity Name              ; digital_clock                               ;
@@ -384,45 +384,44 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat May 16 11:09:18 2020
+    Info: Processing started: Sun May 17 21:39:25 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off digital_clock -c digital_clock
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/tone.v
-    Info (12023): Found entity 1: tone File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 1
+    Info (12023): Found entity 1: tone File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/timing_alarm.v
-    Info (12023): Found entity 1: timing_alarm File: D:/WNZ/Digital Lab/Lab 2/src/timing_alarm.v Line: 1
+    Info (12023): Found entity 1: timing_alarm File: D:/WNZ/Digital Lab/Lab 2/src/timing_alarm.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/set_alarm.v
-    Info (12023): Found entity 1: set_alarm File: D:/WNZ/Digital Lab/Lab 2/src/set_alarm.v Line: 1
+    Info (12023): Found entity 1: set_alarm File: D:/WNZ/Digital Lab/Lab 2/src/set_alarm.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/mult_freq_div.v
     Info (12023): Found entity 1: mult_freq_div File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/disp_decoder.v
-    Info (12023): Found entity 1: disp_decoder File: D:/WNZ/Digital Lab/Lab 2/src/disp_decoder.v Line: 1
+    Info (12023): Found entity 1: disp_decoder File: D:/WNZ/Digital Lab/Lab 2/src/disp_decoder.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/digital_clock.v
     Info (12023): Found entity 1: digital_clock File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/counter_60.v
-    Info (12023): Found entity 1: counter_60 File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 1
+    Info (12023): Found entity 1: counter_60 File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/counter_24.v
-    Info (12023): Found entity 1: counter_24 File: D:/WNZ/Digital Lab/Lab 2/src/counter_24.v Line: 1
+    Info (12023): Found entity 1: counter_24 File: D:/WNZ/Digital Lab/Lab 2/src/counter_24.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/clock.v
-    Info (12023): Found entity 1: clock File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 1
+    Info (12023): Found entity 1: clock File: D:/WNZ/Digital Lab/Lab 2/src/clock.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/alarm_clock_eq.v
-    Info (12023): Found entity 1: alarm_clock_EQ File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock_EQ.v Line: 1
+    Info (12023): Found entity 1: alarm_clock_EQ File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock_EQ.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /wnz/digital lab/lab 2/src/alarm_clock.v
     Info (12023): Found entity 1: alarm_clock File: D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v Line: 1
 Info (12127): Elaborating entity "digital_clock" for the top level hierarchy
-Info (12128): Elaborating entity "mult_freq_div" for hierarchy "mult_freq_div:Freq_Div" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 34
+Info (12128): Elaborating entity "mult_freq_div" for hierarchy "mult_freq_div:Freq_Div" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 36
 Warning (10036): Verilog HDL or VHDL warning at mult_freq_div.v(10): object "clk_cnt_2" assigned a value but never read File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 10
 Warning (10036): Verilog HDL or VHDL warning at mult_freq_div.v(11): object "clk_cnt_3" assigned a value but never read File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 11
 Warning (10230): Verilog HDL assignment warning at mult_freq_div.v(35): truncated value with size 32 to match size of target (26) File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 35
-Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 59
-Warning (10230): Verilog HDL assignment warning at counter_60.v(11): truncated value with size 32 to match size of target (1) File: D:/WNZ/Digital Lab/Lab 2/src/counter_60.v Line: 11
-Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 78
-Info (12128): Elaborating entity "set_alarm" for hierarchy "set_alarm:alarm_seting" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 99
-Info (12128): Elaborating entity "alarm_clock_EQ" for hierarchy "alarm_clock_EQ:ALARM" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 118
-Info (12128): Elaborating entity "timing_alarm" for hierarchy "timing_alarm:T_alarm" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 135
-Info (12128): Elaborating entity "disp_decoder" for hierarchy "disp_decoder:sec_01_decoder" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 158
-Info (12128): Elaborating entity "tone" for hierarchy "tone:T" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 208
+Info (12128): Elaborating entity "counter_60" for hierarchy "counter_60:sec_counter" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 62
+Info (12128): Elaborating entity "counter_24" for hierarchy "counter_24:hour_counter" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 81
+Info (12128): Elaborating entity "set_alarm" for hierarchy "set_alarm:alarm_seting" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 101
+Info (12128): Elaborating entity "alarm_clock_EQ" for hierarchy "alarm_clock_EQ:ALARM" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 121
+Info (12128): Elaborating entity "timing_alarm" for hierarchy "timing_alarm:T_alarm" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 137
+Info (12128): Elaborating entity "disp_decoder" for hierarchy "disp_decoder:sec_01_decoder" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 159
+Info (12128): Elaborating entity "tone" for hierarchy "tone:T" File: D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v Line: 209
 Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/output_files/digital_clock.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -431,11 +430,11 @@ Info (21057): Implemented 243 device resources after synthesis - the final resou
     Info (21058): Implemented 5 input pins
     Info (21059): Implemented 44 output pins
     Info (21061): Implemented 194 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4775 megabytes
-    Info: Processing ended: Sat May 16 11:09:34 2020
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:25
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4773 megabytes
+    Info: Processing ended: Sun May 17 21:39:43 2020
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +------------------------------------------+

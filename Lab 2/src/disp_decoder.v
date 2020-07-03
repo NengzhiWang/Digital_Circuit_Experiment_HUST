@@ -1,3 +1,6 @@
+/*
+    display decoder, BCD code to display code
+*/
 module disp_decoder
 (
     input       [3:0] BCD_num,

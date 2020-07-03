@@ -1,15 +1,17 @@
+/*
+    alarm setup circuit
+    enable min and hour counter to set time of alarm clock
+*/ 
 module set_alarm
 (
-    input       clk,
-    input       min_set,
-    input       hour_set,
-    // output wire alarm_set,
-    output wire [3:0] min_01,
+    input       clk,            // 1Hz clock signal input
+    input       min_set,        // min set enable
+    input       hour_set,       // hour set enable
+    output wire [3:0] min_01,   
     output wire [3:0] min_10,
     output wire [3:0] hour_01,
-    output wire [3:0] hour_10
+    output wire [3:0] hour_10   // BCD codes
 );
-    // assign alarm_set = min_set || hour_set;
 
     counter_60 min_alarm
     (

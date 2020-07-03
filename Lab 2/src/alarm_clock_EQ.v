@@ -1,3 +1,6 @@
+/*
+    judge time now and time of alarm is equal
+*/
 module alarm_clock_EQ
 (
 

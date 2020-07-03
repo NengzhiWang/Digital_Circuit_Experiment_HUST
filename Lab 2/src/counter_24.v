@@ -1,3 +1,6 @@
+/*
+    mod 24 counter with 2 BCD code
+*/
 module counter_24
 (
     input 		clk,            // 1Hz clock signal

@@ -19,9 +19,6 @@ module alarm_clock
 
     // output wire 
 );
- 
-
-
 
     wire [3:0] clock_sec_01;
     wire [3:0] clock_sec_10;
@@ -37,17 +34,13 @@ module alarm_clock
     assign hour_en  = (sec_cout & min_cout) || hour_correct;
     assign min_en   = (sec_cout || min_correct);
 
-
     wire [3:0] alarm_min_01;
     wire [3:0] alarm_min_10;
     wire [3:0] alarm_hour_01;
     wire [3:0] alarm_hour_10;
 
-
     // wire [15:0] clock_time;
     // wire [15:0] alarm_time;
-
-
 
 /** time display **/
     wire alarm_setting;
@@ -101,7 +94,6 @@ module alarm_clock
         .hour_10    (alarm_hour_10)
     );
 
-
     alarm_clock_EQ ALARM
     (
         .clock_sec_01       (clock_sec_01),
@@ -119,8 +111,6 @@ module alarm_clock
         .alarm_en           (alarm_en)
     );
 
-/****/
-
     timing_alarm T_alarm
     (
         .clock_sec_01       (clock_sec_01),
@@ -133,4 +123,5 @@ module alarm_clock
         .timing_en_1        (timing_en_1),
         .timing_en_2        (timing_en_2)
     );
+    
 endmodule 

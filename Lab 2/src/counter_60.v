@@ -1,3 +1,6 @@
+/*
+    mod 60 counter with 2 BCD code
+*/
 module counter_60
 (
     input       clk,            // 1Hz clock signal
@@ -8,8 +11,7 @@ module counter_60
     output wire cout
 );
 
-    assign cout = (Q_10 == 4'b0101 & Q_01 == 4'b1001) ? 1:0;
-    
+    assign cout = (Q_10 == 4'b0101 & Q_01 == 4'b1001);
     always@(posedge clk or negedge clr_n)
     begin
         if (~clr_n)

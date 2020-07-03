@@ -19,7 +19,9 @@ module digital_clock
     // tone signal
 
 );
+
 /** frequenct divide circuit **/
+
     wire clk_1Hz;
     wire clk_500Hz;
     wire clk_1kHz;
@@ -34,6 +36,7 @@ module digital_clock
     );
 
 /** digital clock circuit **/
+
     wire [3:0] clock_sec_01;
     wire [3:0] clock_sec_10;
     wire [3:0] clock_min_01;
@@ -77,7 +80,6 @@ module digital_clock
         .Q_10       (clock_hour_10)
     );
 
-
 /** alarm setting circuit **/
 
     wire [3:0] alarm_min_01;
@@ -99,6 +101,7 @@ module digital_clock
     );
 
 /** alarm compare circuit **/
+
     wire alarm_equal;
     alarm_clock_EQ ALARM
     (
@@ -117,7 +120,6 @@ module digital_clock
         .alarm_en           (alarm_equal)
     );
 
-
 /** timing alarm circuit **/
     wire timing_en_1;
     wire timing_en_2;
@@ -133,7 +135,6 @@ module digital_clock
         .timing_en_1        (timing_en_1),
         .timing_en_2        (timing_en_2)
     );
-
 
 /** display circuit **/
 

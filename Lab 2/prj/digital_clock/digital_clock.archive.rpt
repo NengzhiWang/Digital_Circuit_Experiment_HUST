@@ -1,0 +1,207 @@
+Archive Project report for digital_clock
+Sun May 17 21:40:50 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sun May 17 21:40:50 2020 ;
+; Revision Name          ; digital_clock                         ;
+; Top-level Entity Name  ; digital_clock                         ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Programming output files
+    Info: Incremental compilation and Rapid Recompile database files (version-incompatible)
+    Info: Automatically detected source files
+    Info: Version-incompatible compilation database files
+    Info: Report files
+    Info: Project source and settings files
+    Info: Version-compatible database files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Warning: Version compatible database files do not exist -- excluding 'Version-compatible database files'. You need to run Export Database before you can archive 'Version-compatible database files'.
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/WNZ/Digital Lab/Lab 2/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/digital_clock_WNZ.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'digital_clock.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Sun May 17 21:40:50 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------------------+
+; Files Archived                                                                   ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; ../../src/alarm_clock.v                                                          ;
+; ../../src/alarm_clock_EQ.v                                                       ;
+; ../../src/clock.v                                                                ;
+; ../../src/counter_24.v                                                           ;
+; ../../src/counter_60.v                                                           ;
+; ../../src/digital_clock.v                                                        ;
+; ../../src/disp_decoder.v                                                         ;
+; ../../src/mult_freq_div.v                                                        ;
+; ../../src/set_alarm.v                                                            ;
+; ../../src/timing_alarm.v                                                         ;
+; ../../src/tone.v                                                                 ;
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf                     ;
+; D:/WNZ/Digital Lab/Lab 2/src/alarm_clock.v                                       ;
+; D:/WNZ/Digital Lab/Lab 2/src/alarm_clock_EQ.v                                    ;
+; D:/WNZ/Digital Lab/Lab 2/src/clock.v                                             ;
+; D:/WNZ/Digital Lab/Lab 2/src/counter_24.v                                        ;
+; D:/WNZ/Digital Lab/Lab 2/src/counter_60.v                                        ;
+; D:/WNZ/Digital Lab/Lab 2/src/digital_clock.v                                     ;
+; D:/WNZ/Digital Lab/Lab 2/src/disp_decoder.v                                      ;
+; D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v                                     ;
+; D:/WNZ/Digital Lab/Lab 2/src/set_alarm.v                                         ;
+; D:/WNZ/Digital Lab/Lab 2/src/timing_alarm.v                                      ;
+; D:/WNZ/Digital Lab/Lab 2/src/tone.v                                              ;
+; db/digital_clock.(0).cnf.cdb                                                     ;
+; db/digital_clock.(0).cnf.hdb                                                     ;
+; db/digital_clock.(1).cnf.cdb                                                     ;
+; db/digital_clock.(1).cnf.hdb                                                     ;
+; db/digital_clock.(2).cnf.cdb                                                     ;
+; db/digital_clock.(2).cnf.hdb                                                     ;
+; db/digital_clock.(3).cnf.cdb                                                     ;
+; db/digital_clock.(3).cnf.hdb                                                     ;
+; db/digital_clock.(4).cnf.cdb                                                     ;
+; db/digital_clock.(4).cnf.hdb                                                     ;
+; db/digital_clock.(5).cnf.cdb                                                     ;
+; db/digital_clock.(5).cnf.hdb                                                     ;
+; db/digital_clock.(6).cnf.cdb                                                     ;
+; db/digital_clock.(6).cnf.hdb                                                     ;
+; db/digital_clock.(7).cnf.cdb                                                     ;
+; db/digital_clock.(7).cnf.hdb                                                     ;
+; db/digital_clock.(8).cnf.cdb                                                     ;
+; db/digital_clock.(8).cnf.hdb                                                     ;
+; db/digital_clock.archive.qmsg                                                    ;
+; db/digital_clock.asm.qmsg                                                        ;
+; db/digital_clock.asm.rdb                                                         ;
+; db/digital_clock.asm_labs.ddb                                                    ;
+; db/digital_clock.cbx.xml                                                         ;
+; db/digital_clock.cmp.bpm                                                         ;
+; db/digital_clock.cmp.cdb                                                         ;
+; db/digital_clock.cmp.hdb                                                         ;
+; db/digital_clock.cmp.idb                                                         ;
+; db/digital_clock.cmp.logdb                                                       ;
+; db/digital_clock.cmp.rdb                                                         ;
+; db/digital_clock.cmp_merge.kpt                                                   ;
+; db/digital_clock.cycloneive_io_sim_cache.45um_ff_1200mv_0c_fast.hsd              ;
+; db/digital_clock.cycloneive_io_sim_cache.45um_ii_1200mv_0c_slow.hsd              ;
+; db/digital_clock.cycloneive_io_sim_cache.45um_ii_1200mv_85c_slow.hsd             ;
+; db/digital_clock.db_info                                                         ;
+; db/digital_clock.eda.qmsg                                                        ;
+; db/digital_clock.fit.qmsg                                                        ;
+; db/digital_clock.hier_info                                                       ;
+; db/digital_clock.hif                                                             ;
+; db/digital_clock.lpc.html                                                        ;
+; db/digital_clock.lpc.rdb                                                         ;
+; db/digital_clock.lpc.txt                                                         ;
+; db/digital_clock.map.ammdb                                                       ;
+; db/digital_clock.map.bpm                                                         ;
+; db/digital_clock.map.cdb                                                         ;
+; db/digital_clock.map.hdb                                                         ;
+; db/digital_clock.map.kpt                                                         ;
+; db/digital_clock.map.logdb                                                       ;
+; db/digital_clock.map.qmsg                                                        ;
+; db/digital_clock.map.rdb                                                         ;
+; db/digital_clock.map_bb.cdb                                                      ;
+; db/digital_clock.map_bb.hdb                                                      ;
+; db/digital_clock.map_bb.logdb                                                    ;
+; db/digital_clock.pre_map.hdb                                                     ;
+; db/digital_clock.root_partition.map.reg_db.cdb                                   ;
+; db/digital_clock.routing.rdb                                                     ;
+; db/digital_clock.rtlv.hdb                                                        ;
+; db/digital_clock.rtlv_sg.cdb                                                     ;
+; db/digital_clock.rtlv_sg_swap.cdb                                                ;
+; db/digital_clock.sld_design_entry.sci                                            ;
+; db/digital_clock.sld_design_entry_dsc.sci                                        ;
+; db/digital_clock.smart_action.txt                                                ;
+; db/digital_clock.sta.qmsg                                                        ;
+; db/digital_clock.sta.rdb                                                         ;
+; db/digital_clock.sta_cmp.7_slow_1200mv_85c.tdb                                   ;
+; db/digital_clock.tis_db_list.ddb                                                 ;
+; db/digital_clock.tiscmp.fast_1200mv_0c.ddb                                       ;
+; db/digital_clock.tiscmp.slow_1200mv_0c.ddb                                       ;
+; db/digital_clock.tiscmp.slow_1200mv_85c.ddb                                      ;
+; db/digital_clock.tmw_info                                                        ;
+; db/digital_clock.vpr.ammdb                                                       ;
+; digital_clock.qpf                                                                ;
+; digital_clock.qsf                                                                ;
+; incremental_db/compiled_partitions/digital_clock.db_info                         ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.cmp.cdb          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.cmp.dfp          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.cmp.hdb          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.cmp.logdb        ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.cmp.rcfdb        ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.cdb          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.dpi          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.hbdb.cdb     ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.hbdb.hb_info ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.hbdb.hdb     ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.hbdb.sig     ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.hdb          ;
+; incremental_db/compiled_partitions/digital_clock.root_partition.map.kpt          ;
+; incremental_db/compiled_partitions/digital_clock.rrp.hdb                         ;
+; output_files/digital_clock.asm.rpt                                               ;
+; output_files/digital_clock.eda.rpt                                               ;
+; output_files/digital_clock.fit.rpt                                               ;
+; output_files/digital_clock.fit.smsg                                              ;
+; output_files/digital_clock.fit.summary                                           ;
+; output_files/digital_clock.flow.rpt                                              ;
+; output_files/digital_clock.jdi                                                   ;
+; output_files/digital_clock.map.rpt                                               ;
+; output_files/digital_clock.map.smsg                                              ;
+; output_files/digital_clock.map.summary                                           ;
+; output_files/digital_clock.pin                                                   ;
+; output_files/digital_clock.sld                                                   ;
+; output_files/digital_clock.sof                                                   ;
+; output_files/digital_clock.sta.rpt                                               ;
+; output_files/digital_clock.sta.summary                                           ;
+; Waveform.vwf                                                                     ;
++----------------------------------------------------------------------------------+
+
+

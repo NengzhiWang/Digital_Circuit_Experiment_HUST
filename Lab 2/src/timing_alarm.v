@@ -1,3 +1,6 @@
+/*
+    alarm of int_clock at xx:00:00
+*/
 module timing_alarm
 (
     // clock signal

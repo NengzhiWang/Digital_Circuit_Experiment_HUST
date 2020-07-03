@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/WNZ/Digital Lab/Lab 2/prj/digital_clock/simulation/qsim
 vdigital_clock
-Z1 !s110 1589598004
+Z1 !s110 1589610339
 !i10b 1
 !s100 K^HK7bf;j]6`_7n6<43zO3
 Ih7DmI`iT2NMWN6XlflDe00
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1589598003
+Z3 w1589610336
 Z4 8digital_clock.vo
 Z5 Fdigital_clock.vo
 L0 31
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1589598004.000000
+Z7 !s108 1589610339.000000
 Z8 !s107 digital_clock.vo|
 Z9 !s90 -work|work|digital_clock.vo|
 !i113 1
@@ -36,7 +36,7 @@ R1
 I^??go=fZ6HZOFoLE=dHkd2
 R2
 R0
-w1589598001
+w1589610335
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29

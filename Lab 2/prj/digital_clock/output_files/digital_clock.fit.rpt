@@ -1,5 +1,5 @@
 Fitter report for digital_clock
-Sat May 16 11:09:59 2020
+Sun May 17 21:40:09 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sat May 16 11:09:59 2020       ;
+; Fitter Status                      ; Successful - Sun May 17 21:40:09 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; digital_clock                               ;
 ; Top-level Entity Name              ; digital_clock                               ;
@@ -154,7 +154,7 @@ refer to the applicable agreement for further details.
 ; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -1903,8 +1903,8 @@ Info (176353): Automatically promoted node clk_50MHz~input (placed in PIN J1 (CL
 Info (176353): Automatically promoted node mult_freq_div:Freq_Div|clk_1Hz  File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 5
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node tone:T|tone_1k~0 File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 11
-        Info (176357): Destination node tone:T|tone_1k~12 File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 11
+        Info (176357): Destination node tone:T|tone_1k~0 File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 18
+        Info (176357): Destination node tone:T|tone_1k~12 File: D:/WNZ/Digital Lab/Lab 2/src/tone.v Line: 18
         Info (176357): Destination node mult_freq_div:Freq_Div|clk_1Hz~0 File: D:/WNZ/Digital Lab/Lab 2/src/mult_freq_div.v Line: 5
 Info (176233): Starting register packing
 Info (176235): Finished register packing
@@ -1934,8 +1934,8 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
     Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X23_Y61 to location X33_Y73
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.26 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1943,10 +1943,10 @@ Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file D:/WNZ/Digital Lab/Lab 2/prj/digital_clock/output_files/digital_clock.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 5703 megabytes
-    Info: Processing ended: Sat May 16 11:10:00 2020
-    Info: Elapsed time: 00:00:25
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Peak virtual memory: 5699 megabytes
+    Info: Processing ended: Sun May 17 21:40:10 2020
+    Info: Elapsed time: 00:00:26
+    Info: Total CPU time (on all processors): 00:00:28
 
 
 +----------------------------+

@@ -1,3 +1,10 @@
+/*
+sound drive circuit
+input
+    mult-clocks signals and enable signal of 500 or 1k Hz sound
+output
+    drive signal
+*/
 module tone
 (
     input       clk_1Hz,        // 1Hz clock

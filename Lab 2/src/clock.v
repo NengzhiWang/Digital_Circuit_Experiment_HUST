@@ -1,3 +1,6 @@
+/*
+    clock test
+*/
 module clock
 (
     input       clk,            // 1Hz clock
@@ -51,6 +54,5 @@ module clock
         .Q_01       (hour_01),
         .Q_10       (hour_10)
     );
-
 
 endmodule 
